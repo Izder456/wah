@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang=en-us>
+<div class="main">
 <head>
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Put Him in Smash</title>
 <style>body{transition:background-color 2s cubic-bezier(1,1,1,1);transition-delay:0s}</style>
+<style>
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
 </head>
 <body>
 <h1 style="font-size:55px;font-family:'Comic sans MS'">¸„.-•~¹°”ˆ˜¨ ωααнн ¨˜ˆ”°¹~•-.„¸</h1>
-<img src=https://github.com/Izder456/its-called-art/raw/master/sadwahdeepfried.png alt=Wah! width=1000 height=300>
+<img src=https://github.com/Izder456/its-called-art/raw/master/sadwahdeepfried.png alt=Wah! width=100%>
 <p style="font-size:20px;font-family:'Comic sans MS'"> Waluigi is the best character and should be added to smash ultimate and any other future smash games. Conversely, he is so powerful that he has no special moves, as he doesn't need them. It is known that he is more powerful than shaggy at max power level</p>
 <audio autoplay loop>
 <source src=wah.mp3 type=audio/mpeg>
